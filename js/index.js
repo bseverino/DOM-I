@@ -87,6 +87,10 @@ ctaTitle.textContent = siteContent['cta']['h1'];
 let ctaButton = document.querySelector('.cta-text button');
 ctaButton.textContent = siteContent['cta']['button'];
 
+ctaButton.addEventListener('click', (event) => {
+  event.target.style.background = 'green';
+});
+
 let ctaImg = document.getElementById('cta-img');
 ctaImg.setAttribute('src', siteContent['cta']['img-src']);
 
