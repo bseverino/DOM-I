@@ -63,8 +63,8 @@ reset.addEventListener('click', (event) => {
     btn.disabled = false;
     reset.disabled = true;
     digits.style.color = 'black'; 
-    secondTens.textContent = 0;
-    secondOnes.textContent = 0;
-    msHundreds.textContent = 0;
-    msTens.textContent = 0;
+    secondTens.textContent = '-';
+    secondOnes.textContent = '-';
+    msHundreds.textContent = '-';
+    msTens.textContent = '-';
 });
