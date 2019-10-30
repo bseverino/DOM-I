@@ -1,7 +1,21 @@
+html {
+  background: black;
+}
+
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -200px;
+  padding: 100px;
+  background: white;
+  border-radius: 50px;
 }
 
 .digit {
@@ -11,4 +25,16 @@ body {
 
 .redDigit {
   color: red;
+}
+
+.button {
+  width: 75px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.button:active {
+  background-color: red;
 }
